@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+
+            *{
+                margin: 0;
+                box-sizing: border-box;
+            }
+            .slider{
+                width: 100%;
+            }
+            .slide-wrapper{
+                width: 100%;
+                display: flex;
+                overflow: hidden;
+            }
+            .slide{
+                width: 100%;
+                flex-shrink: 0;
+                transition: 0.5s;
+            }
+            img{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        
+
+        <section class="slider">
+
+            <div class="slide-wrapper">
+                <div class="slide">
+                    <img src="images/image-1.jpg" alt="image-1">
+                </div>
+                <div class="slide">
+                    <img src="images/image-2.jpg" alt="image-2">
+                </div>
+                <div class="slide">
+                    <img src="images/image-4.jpg" alt="image-4">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
